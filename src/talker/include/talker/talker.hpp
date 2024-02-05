@@ -2,7 +2,6 @@
 #include <std_msgs/msg/string.hpp>
 #include <chrono>
 
-using namespace std::chrono_literals;
 class Talker: public rclcpp::Node
 {
 public:
