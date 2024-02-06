@@ -73,6 +73,11 @@ install(
   DESTINATION include
 )
 
+install(
+  DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+)
+
 ament_export_include_directories(include)
 ament_export_dependencies(rclcpp std_msgs rclcpp_components)
 ament_export_libraries(
